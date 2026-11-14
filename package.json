@@ -1,0 +1,18 @@
+{
+  "name": "snow-day",
+  "version": "1.0.0",
+  "description": "Picks your best Swiss ski day from live mountain forecasts and real train connections.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "test": "node --test",
+    "fixtures:record": "node scripts/record-fixtures.js",
+    "stations:check": "node scripts/check-stations.js",
+    "contrast": "node scripts/contrast.js"
+  }
+}
