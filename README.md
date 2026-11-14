@@ -62,4 +62,4 @@ Forecast snow depth is modelled, not a piste measurement. Season dates are appro
 - Typeface families: League Gothic, Instrument Serif and Geist (SIL Open Font License)
 - Visual direction: original illustrations referencing Swiss alpine travel posters
 
-Created by Stella Sun. MIT licence.
+Created by Stella Sun
