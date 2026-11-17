@@ -1,6 +1,16 @@
+
 {
   "outputDirectory": "public",
   "functions": {
-    "api/plan.js": { "maxDuration": 60, "includeFiles": "fixtures/**" }
-  }
+    "api/plan.js": {
+      "maxDuration": 60,
+      "includeFiles": "fixtures/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ]
 }
