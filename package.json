@@ -9,7 +9,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "node server.js",
+    "dev": "node local-server.js",
     "test": "node --test",
     "fixtures:record": "node scripts/record-fixtures.js",
     "stations:check": "node scripts/check-stations.js",
