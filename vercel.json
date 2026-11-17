@@ -1,5 +1,6 @@
 
 {
+  "framework": null,
   "outputDirectory": "public",
   "functions": {
     "api/plan.js": {
@@ -7,10 +8,11 @@
       "includeFiles": "fixtures/**"
     }
   },
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/index.html"
+      "destination": "/index.html",
+      "permanent": false
     }
   ]
 }
